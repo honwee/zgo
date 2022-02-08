@@ -1,0 +1,11 @@
+[Log]
+Level = "error"
+# 文件路径
+FilePath = "./ubx-server.log"
+ToStdout = true
+MaxAge = 28
+
+[store]
+address = "10.4.10.30:8002"
+localdir = "/.UBX"
+token = ""

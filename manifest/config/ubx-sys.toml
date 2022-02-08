@@ -1,0 +1,11 @@
+[addr]
+name = "server"
+host = ''
+port = 8017
+
+[Log]
+Level = "error"
+# 文件路径
+FilePath = "./ubx-sys.log"
+ToStdout = true
+MaxAge = 28
